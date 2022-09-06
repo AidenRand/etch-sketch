@@ -4,15 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Sketchpad</title>
   </head>
   <body>
-    <div class="color-bar">
+    <h1 class="title">Sketchpad</h1>
+    <div class="nav-bar">
       <button class="resetBtn">Reset</button>
       <button class="eraseBtn">Erase</button>
-      <button class='sketchBtn'>Sketch</button>
-      <input type="color" class="color-picker" value="#000000">
+      <button class="sketchBtn">Sketch</button>
+      <button class="rainbowBtn">Rainbow</button>
+      <input type="color" class="color-picker" value="#000000" />
       <input type="number" class="grid-size" value="16" />
     </div>
     <div class="container"></div>
